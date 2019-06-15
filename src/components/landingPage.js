@@ -14,7 +14,10 @@ class Landing extends Component {
                             <hr/>
                             <p>HTML/CSS | JavaScript | React | React Native| NodeJS | PHP | ASP.NET core</p>
                             <div className="social-links">
-                                <a></a>
+                                {/*LinkedIn */}
+                                <a href="https://www.linkedin.com/in/fatima-johora " rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                </a>
                             </div>
                         </div>
                     </Cell>
