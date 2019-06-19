@@ -55,3 +55,6 @@
   font-size: 5em;
   padding: 5px;
 }
+.projects-grid{
+  display: flex;
+}
