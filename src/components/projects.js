@@ -36,13 +36,13 @@ class Project extends Component {
                 </div>
             )
     
-        }else if(this. state.activeTab===1){
+        }else if(this.state.activeTab===1){
             return(
                 <div><h1>This is C#</h1></div>
             )
 
         }
-        else if(this. state.activeTab===2){
+        else if(this.state.activeTab===2){
             return(
                 <div><h1>This is PHP</h1></div>
             )
