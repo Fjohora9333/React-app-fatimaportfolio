@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
     render(){
@@ -58,6 +59,34 @@ class Resume extends Component {
                         jobDescription="Responded to customer inquiries in person as well as over the phone, Customer account management involving account adjustments, Health and safety training"/>
                         <hr style={{borderTop:'2px solid #e22947'}}/>
                         <h2>Skills</h2>
+                        <Skills 
+                        skill="HTML/Css"
+                        progress={100}
+                        />
+                        <Skills 
+                        skill="JavaScript"
+                        progress={95}
+                        />
+                        <Skills 
+                        skill="C#"
+                        progress={80}
+                        />
+                        <Skills 
+                        skill="ASP.NET core"
+                        progress={90}
+                        />
+                        <Skills 
+                        skill="ReactJs"
+                        progress={50}
+                        />
+                        <Skills 
+                        skill="node.js"
+                        progress={50}
+                        />
+                        <Skills 
+                        skill="PHP"
+                        progress={60}
+                        />
                     </Cell>
                 </Grid>
             </div>

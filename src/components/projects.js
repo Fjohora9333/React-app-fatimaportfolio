@@ -16,7 +16,7 @@ class Project extends Component {
                     <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'}}> React Project #1</CardTitle>
                     <CardText>React Portfolio </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Fjohora9333/React-app-fatimaportfolio"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/Fjohora9333/React-app-fatimaportfolio" target="_blank"><Button colored>GitHub</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share'/>
@@ -25,10 +25,12 @@ class Project extends Component {
                 {/*project2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'}}> React Project #2</CardTitle>
-                    <CardText>React Portfolio </CardText>
+                    <CardText>React Quiz Game </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Fjohora9333/React-app-fatimaportfolio"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/Fjohora9333/React-app-fatimaportfolio" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://feb22quizegame-ftj.herokuapp.com/" target="_blank"><Button colored>Demo</Button></a>
                     </CardActions>
+                    
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share'/>
                     </CardMenu>
